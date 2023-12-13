@@ -11,7 +11,7 @@ public class MemEx02 {
         System.out.println("2년 지남");
         System.out.println("3년 지남");
 
-        Person2 p = new Person2(); //동적 할당, heap에 할당, 여러번 띄울 수 있다.
+        Person2 p = new Person2(); //동적 할당, heap에 할당, 여러 번 띄울 수 있다.
         //변수를 만들어주어야 한다.
         System.out.println(p.age);
         System.out.println(p.gender);
