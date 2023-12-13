@@ -1,3 +1,5 @@
+package ex01;
+
 public class VarEx01 {    //모든 코드는 main 메서드 내부에 적는다.
     public static void main(String[] args) {
         int n1=1;        //숫자. 21억까지 저장 가능.
