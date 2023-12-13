@@ -1,4 +1,5 @@
 package ch02;
+
 public class Light {
     public static void main(String[] args) {
         final double LIGHT_SPEED =3e5;
