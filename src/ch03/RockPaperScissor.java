@@ -8,7 +8,8 @@ public class RockPaperScissor {
     final int Paper=2;
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("가위(0), 바위(1), 보(2): ");
+        System.out.println("가위바위보 게임입니다." +
+                "가위(0), 바위(1), 보(2) 중 하나를 입력하세요.");
         int user=sc.nextInt();
 
         int computer= (int) (Math.random()*3);

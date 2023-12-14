@@ -17,9 +17,9 @@ public class RockPaperScissorWhile {
             if(user==computer){
                 System.out.println("비겼습니다.");
             }else if(user==(computer+1)%3){
-                System.out.println("이겼습니다.");
+                System.out.println("인간: "+user+"컴퓨터: "+computer+"인간 승리");
             }else{
-                System.out.println("졌습니다.");
+                System.out.println("인간: "+user+"컴퓨터: "+computer+"컴퓨터 승리");
             }
         }
     }
