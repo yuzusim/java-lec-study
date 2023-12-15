@@ -14,6 +14,6 @@ public class ArrayListTest {
 
         list.remove(3);
 
-        System.out.println(list.get(3));
+        //System.out.println(list.get(3));
     }
 }
