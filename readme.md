@@ -10,3 +10,4 @@
 - java4-1 (수정)
 - java5-1 (숫자맞추기, 숫자를 영어로 출력, ArrayList, 2차원 배열)
 - java5-1 modify (수정)
+- java5-2 (버블 정렬)
