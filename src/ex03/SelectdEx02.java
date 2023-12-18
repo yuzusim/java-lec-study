@@ -12,8 +12,8 @@ public class SelectdEx02 {
         int min = rep;
 
         for (int j = 0; j < N-1; j++) {
-            rep =j;
-            min = i;
+            rep = j;
+            min = rep;
             for (int i = rep+1; i < N; i++) {
                 if (arr[0] > arr[i) { // 5, 8, 2, 4, 3
                     min = i;
