@@ -1,4 +1,4 @@
-package ex03.Text;
+package ex03.Test;
 
 public class BinaryTest04 {
     public static void main(String[] args) {

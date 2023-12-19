@@ -1,4 +1,4 @@
-package ex03.Text;
+package ex03.Test;
 
 /**
  * * 1회전 (4바퀴)

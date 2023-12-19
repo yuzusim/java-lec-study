@@ -1,4 +1,4 @@
-package ex03.Text;
+package ex03.Test;
 
 /**
  * 오름차순을 기준으로 정렬한다.

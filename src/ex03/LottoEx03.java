@@ -6,7 +6,7 @@ import java.util.Random;
 public class LottoEx03 {
     public static void main(String[] args) {
         int arr[] = new int[6];
-        Random r = new Random();
+        Random r = new Random(); // 랜덤함수
         int num;
         boolean isSame;
 

@@ -1,4 +1,4 @@
-package ex03.Text;
+package ex03.Test;
 
 /**
  * 5, 8, 2, 4, 3
