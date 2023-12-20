@@ -10,7 +10,7 @@ public class ScopeEx01 {
         System.out.println("m1: " + n5);
     }
 
-    void m.2() {
+    void m2() {
         System.out.println("m1: " + n1);
     }
 
