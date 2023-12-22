@@ -1,12 +1,18 @@
 package ex05;
 
-public class MyStaticMethodTest02 {
-    public static int cube(int x) {
-        int result = x * x * x;
-        return result;
+public class MyStaticMethodTest03 {
+    static int number;
+    static String s;
+
+    static {
+        number = 23;
+        s = "Hello World";
     }
 
     public static void main(String[] args) {
-        System.out.println("10*10*10은 " + cube(10));
+        System.out.println("number: " + number);
+        System.out.println("s :" + s);
+
+
     }
 }
