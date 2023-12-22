@@ -14,6 +14,12 @@ class Cat extends Animal {
     void speak() {
         System.out.println("야옹");
     }
+
+// 알트 + 인서트, 오버라이딩 선택
+//    @Override
+//    void speak() {
+//        super.speak();
+//    }
 }
 
 public class AnimalEx01 {

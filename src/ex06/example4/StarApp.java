@@ -1,42 +1,22 @@
-package ex06.example3;
+package ex06.example4;
 
 public class StarApp {
 
-    public static void gameStart(Zealot u1, Dragoon u2) {
+
+    public static void gameStart(Protoss u1, Protoss u2) {
         u1.attack();
         u2.attack();
     }
-
-    public static void gameStart(Dragoon u1, Zealot u2) {
-        u1.attack();
-        u2.attack();
-    }
-
-    public static void gameStart(Zealot u1, Zealot u2) {
-        u1.attack();
-        u2.attack();
-    }
-
-    public static void gameStart(Dragoon u1, Dragoon u2) {
-        u1.attack();
-        u2.attack();
-    }
-
 
     public static void main(String[] args) {
-        Zealot z1 = new Zealot(z1);
-        Dragoon d1 = new Dragoon(d1);
-        Zealot z2 = new Zealot(z2);
-        Dragoon d2 = new Dragoon(d2);
+        Protoss zealot1 = new Zealot("zealot1"); // [Protoss, Zealot]
+        Protoss dragoon1 = new Dragoon("dragoon1"); // [Protoss, Dragoon]
+        Protoss river1 = new River("river1"); // [Protoss, River]
+        Protoss dark1 = new Dark("dark1"); // [Protoss, Dark]
 
-        //Reaver r1 = new Reaver();
-
-        gameStart(z1, d1);
-        gameStart(d1, z1);
-        gameStart(z1, z2);
-        gameStart(z2, z1);
-        gameStart(d1, d2);
-
+        gameStart(zealot1, dragoon1);
+        gameStart(zealot1, river1);
 
     }
 }
+// 상속은 재정의 하기 위해서 하는 것이 아니라 타입을 일치시켜서 동적 바인딩을 하기 위해 하는 것이다.

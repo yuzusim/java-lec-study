@@ -1,7 +1,6 @@
-package ex06.example3;
+package ex06.example4;
 
-public class Zealot {
-
+public class Zealot extends Protoss {
     String name;
 
     public Zealot(String name) {
@@ -9,7 +8,6 @@ public class Zealot {
     }
 
     public void attack() {
-        System.out.println("질넛이 공격합니다." + name);
+        System.out.println("질럿이 공격합니다: " + name);
     }
-
 }
