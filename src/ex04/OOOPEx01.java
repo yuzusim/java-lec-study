@@ -15,6 +15,5 @@ public class OOOPEx01 {
         p3.weight = 60;
         System.out.println("p3의 몸무게: " + p3.weight);
 
-
     }
 }

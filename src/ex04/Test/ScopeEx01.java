@@ -10,9 +10,9 @@ public class ScopeEx01 {
         System.out.println("m1: " + n5);
     }
 
-//e    void m.2() {
-//e        System.out.println("m1: " + n1);
-//e    }
+//    void m.2() {
+//        System.out.println("m1: " + n1);
+//    }
 
     // 메인 시작전에 static에 n2변수와 n1 메서드가 로드 되어 있음
     public static void main(String[] args) {

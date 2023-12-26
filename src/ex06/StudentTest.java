@@ -1,7 +1,7 @@
 package ex06;
 
 class Person {
-    private String renumer;
+    private String regnumer;
     private double weight;
     protected int age;
     String name;
