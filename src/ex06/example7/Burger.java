@@ -1,15 +1,16 @@
-package ex06.exm.exm7;
+package ex06.example7;
 
 public class Burger {
-    private System name;
-    private  int price;
+    private String name; // 네임 String 문자열로 가져 온다.
+    private int price;
 
-    public Burger(System name, int price) {
+    public Burger(String name, int price) {
         this.name = name;
         this.price = price;
+        System.out.println(name + "이 만들어 졌어요");
     }
 
-    public System getName() {
+    public String getName() {
         return name;
     }
 
