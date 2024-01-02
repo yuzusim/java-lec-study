@@ -1,5 +1,5 @@
 package ex08.example2;
-// 예외 처리 --> 컴파일 인셉션
+// 예외 처리 --> 컴파일 인셉션 -->
 
 class MyZeroDivideException extends Exception{
     // 컴파일 체크 인셉션
