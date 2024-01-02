@@ -32,22 +32,15 @@ class Circle extends Shap{
 
 public class ShapTest {
     public static void main(String[] args) {
+        Shap s = new Retangle();
+        s.draw();
+
 //        Shap s1, s2;
 //        s1 = new Shap();
-//        //System.out.println();
+//        s2 = new Retangle();
 //
-//
-//        System.out.println(Triangle);
-//        // 트라이 앵글 간접적으로 값 어찌 받지?
-        Shap s = new Retangle();
-        Retangle r = new Retangle();
-
-        s.x = 0;
-        s.y = 0;
-
-
-
-
+//        s1.draw();
+//        s2.draw();
 
     }
 }
