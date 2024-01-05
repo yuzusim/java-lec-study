@@ -9,6 +9,7 @@ class User {
         return new User(user);
     }
 
+
     // 생성자
     public User(User user) {
         this.id = user.getId();
