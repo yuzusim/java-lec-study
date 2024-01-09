@@ -1,5 +1,5 @@
 package ex14;
-
+// 스트림 복습 --> map으로
 import java.util.HashMap;
 import java.util.*;
 

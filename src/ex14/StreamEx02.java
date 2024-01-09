@@ -1,5 +1,5 @@
 package ex14;
-
+// 스트림 복습
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -13,7 +13,7 @@ class User {
         this.age = age;
     }
 
-    public void  changeAge(){
+    public void changeAge(){
         this.age = this.age -1;
     }
 
