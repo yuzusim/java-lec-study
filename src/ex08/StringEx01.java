@@ -48,11 +48,5 @@ public class StringEx01 {
         String replacedStr = str.replace('l', 'X');
         System.out.println("치환된 문자열: " + replacedStr);  // 출력: HeXXo, Java!
 
-
-
-
-
-
-
     }
 }
